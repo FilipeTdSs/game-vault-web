@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-vault-bg: #0b0b0f;
+  --color-vault-surface: #16141f;
+  --color-vault-surface-hover: #1f1c2b;
+  --color-vault-border: #2a2638;
+
+  --color-vault-primary: #5a2d81;
+  --color-vault-primary-hover: #6e3a9c;
+  --color-vault-primary-deep: #241773;
+  --color-vault-gold: #9e7c0c;
+
+  --color-vault-text: #f2f0f7;
+  --color-vault-muted: #8a8d93;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen bg-vault-bg text-vault-text antialiased;
+  }
+}
