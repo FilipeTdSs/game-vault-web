@@ -1,0 +1,35 @@
+<section class="relative overflow-hidden">
+  <div
+    class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,var(--color-vault-primary-deep),transparent_60%)] opacity-60"
+  ></div>
+
+  <div class="relative mx-auto flex max-w-6xl flex-col items-center px-4 py-28 text-center">
+    <span class="mb-4 rounded-full border border-vault-border px-3 py-1 text-xs text-vault-muted">
+      {{ 'home.badge' | translate }}
+    </span>
+
+    <h1 class="max-w-3xl text-4xl font-extrabold tracking-tight sm:text-6xl">
+      {{ 'home.title' | translate }}
+      <span class="text-vault-primary-hover">{{ 'home.titleHighlight' | translate }}</span>
+    </h1>
+
+    <p class="mt-6 max-w-xl text-lg text-vault-muted">
+      {{ 'home.subtitle' | translate }}
+    </p>
+
+    <div class="mt-10 flex gap-3">
+      <a
+        routerLink="/register"
+        class="rounded-md bg-vault-primary px-6 py-3 font-semibold transition hover:bg-vault-primary-hover"
+      >
+        {{ 'home.cta' | translate }}
+      </a>
+      <a
+        routerLink="/login"
+        class="rounded-md border border-vault-border px-6 py-3 font-semibold text-vault-muted transition hover:border-vault-primary hover:text-vault-text"
+      >
+        {{ 'nav.login' | translate }}
+      </a>
+    </div>
+  </div>
+</section>

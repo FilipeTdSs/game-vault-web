@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "login": "Sign in",
+    "switchLanguage": "Switch language to Portuguese"
+  },
+  "home": {
+    "badge": "Your collection, your way",
+    "title": "All your games in one",
+    "titleHighlight": "vault",
+    "subtitle": "Keep track of what you're playing, what you've beaten and what's next on your list.",
+    "cta": "Create account"
+  }
+}
